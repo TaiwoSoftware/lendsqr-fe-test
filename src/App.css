@@ -150,6 +150,13 @@ body {
   cursor: pointer;
 }
 
+/* dashboard */
+.dashboard {
+  background: #FBFBFB;
+  margin: 0;
+  padding: 0;
+}
+
 @media (max-width: 884px) {
   .allContainer {
     grid-template-columns: 100%;
