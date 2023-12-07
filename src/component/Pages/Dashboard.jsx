@@ -15,7 +15,7 @@ const Dashboard = () => {
                 <div>
                     <p>Docs</p>
                     <img src={notifier} alt='notifier' />
-                    <img src={} alt='avatar' />
+                    <img src={avatar} alt='avatar' />
                 </div>
             </nav>
         </div>
