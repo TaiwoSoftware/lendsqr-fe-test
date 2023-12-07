@@ -7,6 +7,11 @@ function App() {
     <>
       <Router>
         <Routes>
+          <Route path="/" element={
+            <div>
+              <h1>Homepage</h1>
+            </div>
+          } />
           <Route path="/" element={<SignUp />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
