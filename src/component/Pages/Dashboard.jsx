@@ -4,6 +4,7 @@ import searchIcon from "../Images/searchicon.svg";
 import notifier from "../Images/notifier.svg";
 import avatar from "../Images/avatar.svg";
 import dropdown from "../Images/Vector.svg";
+import DashboardSidebar from "./DashboardSidebar";
 const Dashboard = () => {
   return (
     <div className="dashboard">
@@ -23,6 +24,7 @@ const Dashboard = () => {
           <img src={dropdown} alt="dropdown menu" />
         </div>
       </nav>
+      <DashboardSidebar />
     </div>
   );
 };
