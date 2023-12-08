@@ -289,7 +289,7 @@ nav {
   font-family: "work_sans", sans-serif;
   font-size: 0.75rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: normal;
 }
 
@@ -306,8 +306,12 @@ nav {
   font-family: "work_sans", sans-serif;
   font-size: 0.75rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: normal;
+}
+
+.mainUser {
+  background: rgba(57, 205, 205, 0.3450980392);
 }
 
 /* End of DashboardSidebar */
