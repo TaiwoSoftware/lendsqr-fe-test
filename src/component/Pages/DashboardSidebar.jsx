@@ -33,7 +33,9 @@ const DashboardSidebar = () => {
       <div className="customers">
         <p className="customer">CUSTOMERS</p>
       </div>
+      <div className="mainUser">
       <SidebarJunks src={users} alt="multiple users" title="Users" />
+      </div>
 
       <SidebarJunks src={guarantor} alt="Guarantor" title="Guarantor" />
 
