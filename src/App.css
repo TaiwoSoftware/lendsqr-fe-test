@@ -2,6 +2,14 @@
   font-family: "avenir_next";
   src: url("../src/component/fonts/avenir-next/AvenirNextLTPro-Regular.otf");
 }
+@font-face {
+  font-family: " work_sans";
+  src: url("../src/component/fonts/Work_Sans/static/WorkSans-Regular.ttf");
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../src/component/fonts/Roboto/Roboto-Regular.ttf");
+}
 html {
   max-width: 1440px;
   margin-left: auto;
@@ -180,11 +188,12 @@ nav {
   border: 1px solid #213f7d;
   opacity: 0.2;
   background: #fff;
+  padding: 1rem;
 }
 
 .searchInput input::-moz-placeholder {
-  color: var(--545-f-7-d, #545f7d);
-  font-family: Work Sans;
+  color: #545f7d;
+  font-family: "work_sans", sans-serif;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
@@ -193,13 +202,42 @@ nav {
 }
 
 .searchInput input::placeholder {
-  color: var(--545-f-7-d, #545f7d);
-  font-family: Work Sans;
+  color: #545f7d;
+  font-family: "work_sans", sans-serif;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   opacity: 0.7;
+}
+
+.submitButton {
+  background: #39cdcc;
+  border: none;
+  outline: none;
+  height: 2.5rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  width: 3.5rem;
+  transform: translateX(-2rem);
+}
+
+.docs {
+  color: #213f7d;
+  font-family: "roboto";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.adedji {
+  color: #213F7D;
+  font-family: "work_sans", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 /* End of dashboard styles */
